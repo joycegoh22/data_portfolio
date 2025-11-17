@@ -52,15 +52,15 @@ This geophysical analysis examines slip-partitioned regions in the Hokkaido tren
 
 ---
 
-## 4. SQL 
+## 4. SQL Queries on Customer Orders 
 
-This folder contains two SQL queries that demonstrate my ability to write clear, correct SQL for analytics use cases.
+This folder contains two SQL queries that demonstrate my ability to write clear, correct SQL for analytics use cases, based on a data set of customer orders 
 
 ### Query 1 — Geospatial Customer Targeting
 
 **File:** `queries.sql` (section: Geospatial zip ranking)
 
-This query identifies the **top 3 postal codes by number of distinct orders** within 100 km of a reference location (e.g., a store or warehouse). It joins `Customer`, `Zips`, and `Orders`, computes geodesic distance using `ST_DISTANCE_SPHERE`, filters by radius, aggregates orders by postal code, and ranks the results.
+This query identifies the **top 3 postal codes by number of distinct orders** within 100 km of a reference location. It joins `Customer`, `Zips`, and `Orders`, computes geodesic distance using `ST_DISTANCE_SPHERE`, filters by radius, aggregates orders by postal code, and ranks the results.
 
 ### Query 2 — Running Total Revenue Over Time
 
