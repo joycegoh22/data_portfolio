@@ -4,7 +4,7 @@ This repository contains four representative analytics projects demonstrating my
 
 ---
 
-## **1. Benchmarking Singapore Against Its Peers Using the Singapore Green Plan 2030 **
+## **1. Benchmarking Singapore Against Its Peers Using the Singapore Green Plan 2030**
 
 ### Overview
 This project benchmarks Singapore’s sustainability performance against peer economies using **6 SDG-aligned indicators** mapped to the **Singapore Green Plan 2030**. It evaluates both:
