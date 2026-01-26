@@ -19,7 +19,7 @@ This project benchmarks Singapore’s sustainability performance against peer ec
 ### **Files**
 - `/sg_greenplan2030/` — Python & SQL scripts, Tableau workbook, write-up
 
--- 
+---
 
 ## **2. Coral Geochemistry & NMDS Modeling (R)**
 
@@ -67,7 +67,7 @@ This project processes and analyzes millions of 6-dimensional points using **PyS
 ### **Files**
 - `/pyspark_6d/` — PySpark script, write-up
 
--- 
+--- 
 
 ## Summary  
 Across these three samples, this portfolio demonstrates:
