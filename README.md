@@ -1,10 +1,27 @@
 # Data Analytics Work Samples – Joyce Goh
 
-This repository contains four representative analytics projects demonstrating my experience across statistical modeling, machine learning, geospatial analysis, large-scale data processing, and scientific computing. Each sample includes a summary of the problem, methodology, and results, along with code notebooks and visualizations.
+This repository contains four representative analytics projects demonstrating my experience across data analysis, data visualization, and statistical modelling. Each sample includes a summary of the problem, methodology, and results, along with code notebooks and visualizations.
 
 ---
 
-## **1. Coral Geochemistry & NMDS Modeling (R)**
+## **1. Benchmarking Singapore Against Its Peers Using the Singapore Green Plan 2030 **
+
+### Overview
+This project benchmarks Singapore’s sustainability performance against peer economies using **6 SDG-aligned indicators** mapped to the **Singapore Green Plan 2030**. It evaluates both:
+- **Singapore’s time trends** (progress over time), and
+- **relative performance** versus peers (rank/positioning by year and indicator).
+
+### Key Techniques
+- **Python (pandas, numpy):** data cleaning, reshaping, validation
+- **SQL:** joins, running totals, YoY absolute and % changes, ranking logic
+- **Tableau:** interactive dashboarding and storytelling visualizations
+
+### **Files**
+- `/sg_greenplan2030/` — Python & SQL scripts, Tableau workbook, write-up
+
+-- 
+
+## **2. Coral Geochemistry & NMDS Modeling (R)**
 
 ### **Overview**
 This project analyzes geochemical trace-element ratios across multiple coral species exposed to different pCO₂ levels. The objective is to understand species-specific geochemical responses to ocean acidification and identify multivariate patterns in coral chemistry.
@@ -17,22 +34,6 @@ This project analyzes geochemical trace-element ratios across multiple coral spe
 
 ### **Files**
 - `/coral_nmds/` — R script, write-up
-
----
-
-## **2. Large-Scale 6D Data Hunt with PySpark RDDs**
-
-### **Overview**
-This project processes and analyzes millions of 6-dimensional points using **PySpark RDDs**. This project was executed on the Bridges2 supercomputing cluster, using SSH to access compute nodes and run distributed Python workflows. Tasks include clustering, PCA projection, and computing cluster extents in projected space.
-
-### **Key Techniques**
-- PySpark RDD transformations (map, reduce, filter, zip)
-- k-means clustering at scale
-- Distributed PCA and projections
-- Optimization of transformations and caching strategies
-
-### **Files**
-- `/pyspark_6d/` — PySpark script, write-up
 
 ---
 
@@ -52,30 +53,21 @@ This geophysical analysis examines slip-partitioned regions in the Hokkaido tren
 
 ---
 
-## 4. SQL Queries on Customer Orders 
+## **4. Large-Scale 6D Data Hunt with PySpark RDDs**
 
-This folder contains two SQL queries that demonstrate my ability to write clear, correct SQL for analytics use cases, based on a data set of customer orders 
+### **Overview**
+This project processes and analyzes millions of 6-dimensional points using **PySpark RDDs**. This project was executed on the Bridges2 supercomputing cluster, using SSH to access compute nodes and run distributed Python workflows. Tasks include clustering, PCA projection, and computing cluster extents in projected space.
 
-### Query 1 — Geospatial Customer Targeting
+### **Key Techniques**
+- PySpark RDD transformations (map, reduce, filter, zip)
+- k-means clustering at scale
+- Distributed PCA and projections
+- Optimization of transformations and caching strategies
 
-**File:** `queries.sql` (section: Geospatial zip ranking)
+### **Files**
+- `/pyspark_6d/` — PySpark script, write-up
 
-This query identifies the **top 3 postal codes by number of distinct orders** within 100 km of a reference location. It joins `Customer`, `Zips`, and `Orders`, computes geodesic distance using `ST_DISTANCE_SPHERE`, filters by radius, aggregates orders by postal code, and ranks the results.
-
-### Query 2 — Running Total Revenue Over Time
-
-**File:** `queries.sql` (section: Running total revenue)
-
-This query calculates **daily revenue** and a **running total of revenue** across all orders using a window function. It groups orders by date, computes daily sums, and then applies `SUM(...) OVER (ORDER BY date)` to produce a cumulative revenue series.
-
-**Key concepts:**
-- Multi-table joins  
-- Subqueries  
-- Geospatial distance calculation  
-- Date-based aggregation  
-- Window functions  
-- Running totals for time series analysis 
----
+-- 
 
 ## Summary  
 Across these three samples, this portfolio demonstrates:
