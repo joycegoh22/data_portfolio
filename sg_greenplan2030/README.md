@@ -12,4 +12,10 @@ Key insights:
 
 **Interactive Tableau dashboard:** [link](https://tinyurl.com/sggreenplan2030analysis)
 
-**Full report:** [pdf](Report.pdf)
+**Full report:** [pdf](report.pdf)
+
+**Sources:** 
+- Singapore Government. *Singapore Green Plan 2030*.  
+  https://www.greenplan.gov.sg/
+- World Bank. *Sustainable Development Goals (SDGs) / ESG Data Bank*.  
+  https://databank.worldbank.org/source/sustainable-development-goals-(sdgs)
