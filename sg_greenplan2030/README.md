@@ -10,6 +10,6 @@ Key insights:
   
 **Tools:** Python (data cleaning), SQL (analysis), Tableau (visualisation)
 
-Interactive Tableau dashboard: [link](https://tinyurl.com/sggreenplan2030analysis)
+**Interactive Tableau dashboard:** [link](https://tinyurl.com/sggreenplan2030analysis)
 
-Full report: [pdf](Report.pdf)
+**Full report:** [pdf](Report.pdf)
