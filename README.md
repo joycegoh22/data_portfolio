@@ -11,18 +11,17 @@ This project benchmarks Singapore’s sustainability performance against peer ec
 - **Singapore’s time trends** (progress over time), and
 - **relative performance** versus peers (rank/positioning by year and indicator).
 
-### Key Takeaways
-Singapore has retained a relatively stable ranking amongst pers with moderate progress towards ESG goals. However, progress is uneven across both time and indicators. One clear trend is the decoupling of carbon emissions with economic growth, supporting the Energy 
-Reset and Green Economy pillars of the 2030 Green Plan. 
-
-Greater consistency and progress will be required from Singapore in order to reach target goals. 
+### Key Takeaways & Implications for Singapore
+- Singapore’s stable peer ranking reflects **strong baseline ESG performance**, but uneven progress across indicators reveals challenges in turning long-term policy commitments into consistent outcomes.
+- The decoupling of carbon emissions from economic growth signals a **shift toward lower-carbon development**, reinforcing the Energy Reset and Green Economy pillars of the Singapore Green Plan 2030.
+- To meet its 2030 targets and remain a regional green finance hub, Singapore will need to **accelerate progress in lagging areas and strengthen cross-sector policy implementation**.
 
 ### Key Techniques
 - **Python (pandas, numpy):** data cleaning, reshaping, validation
 - **SQL:** joins, running totals, YoY absolute and % changes, ranking logic
 - **Tableau:** interactive dashboarding and storytelling visualizations
 
-### **Files**
+### Files
 - `/sg_greenplan2030/` — Python & SQL scripts, Tableau workbook, write-up
 
 ---
