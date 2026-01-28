@@ -11,6 +11,12 @@ This project benchmarks Singapore’s sustainability performance against peer ec
 - **Singapore’s time trends** (progress over time), and
 - **relative performance** versus peers (rank/positioning by year and indicator).
 
+### Key Takeaways
+Singapore has retained a relatively stable ranking amongst pers with moderate progress towards ESG goals. However, progress is uneven across both time and indicators. One clear trend is the decoupling of carbon emissions with economic growth, supporting the Energy 
+Reset and Green Economy pillars of the 2030 Green Plan. 
+
+Greater consistency and progress will be required from Singapore in order to reach target goals. 
+
 ### Key Techniques
 - **Python (pandas, numpy):** data cleaning, reshaping, validation
 - **SQL:** joins, running totals, YoY absolute and % changes, ranking logic
